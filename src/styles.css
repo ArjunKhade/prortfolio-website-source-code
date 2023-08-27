@@ -30,10 +30,3 @@ h1 {
   outline: 1px solid white;
   font-family: "Roboto Condensed", sans-serif;
 }
-
-.border {
-  color: #263238;
-  border-radius: 12px;
-  font-size: 15px;
-  background-color: green;
-}

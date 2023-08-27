@@ -2,10 +2,14 @@
   <h1>Contact</h1>
 
   <ul class="social-media">
-    <li><i class="bx bxl-gmail"></i></li>
-    <li><i class="bx bxl-facebook-circle"></i></li>
-    <li><i class="bx bxl-instagram"></i></li>
-    <li><i class="bx bxl-linkedin"></i></li>
+    <li (click)="navigateToGmailProfile()"><i class="bx bxl-gmail"></i></li>
+    <li (click)="navigateToFacebookProfile()">
+      <i class="bx bxl-facebook-circle"></i>
+    </li>
+    <li (click)="navigateToInstaProfile()"><i class="bx bxl-instagram"></i></li>
+    <li (click)="navigateToLinkedInProfile()">
+      <i class="bx bxl-linkedin"></i>
+    </li>
   </ul>
 
   <div class="contact-info">

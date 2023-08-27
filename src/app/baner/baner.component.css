@@ -45,8 +45,9 @@
 }
 
 .profile img {
-  width: 100%;
+  width: 75%;
   height: 100%;
+  margin-left: 35px;
   position: absolute;
 }
 
@@ -61,7 +62,7 @@
 
 .profile .profile-bg {
   height: 75%;
-  width: 100%;
+  width: 95%;
   bottom: 0%;
   position: absolute;
   background-color: #69f0ae;
